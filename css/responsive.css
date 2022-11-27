@@ -1,0 +1,567 @@
+/* Responsive CSS started here */
+@media screen and (min-width: 1024px) {
+  .footer-logo.footer-logo-mob {
+    display: none;
+  }
+  .progress-box-mob {
+    display: none;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .container-fluid {
+    width: 100%;
+    padding: 0px;
+  }
+  .footer-logo.footer-logo-pc {
+    display: none;
+  }
+  .footer-logo.footer-logo-mob img {
+    display: unset;
+  }
+  .photo-slide img {
+    border-radius: 6px;
+  }
+}
+/* 1. Home page started here */
+@media screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+  .hide-in-mob {
+    display: none;
+  }
+  .mob-pad-3px {
+    padding: 0 3px;
+  }
+  .index-sec-padd1 {
+    padding: 8px;
+  }
+  .sec-padd {
+    padding: 8px;
+  }
+  .photo-slide {
+    background: none;
+  }
+  .photo-container {
+    width: 100%;
+    height: 194px;
+  }
+  .home-short-films {
+    height: auto;
+  }
+  .home-3-photo img {
+    height: auto;
+  }
+  .ifh-h-sec6 .h-6-music img,
+  .ifh-h-sec7 .h-6-music img {
+    height: 100px;
+  }
+  .ifh-h-sec6-mob,
+  .ifh-h-sec7 {
+    overflow: hidden;
+    height: 200px;
+  }
+  .right-side-slider-container img {
+    height: 345px;
+  }
+  .home-2-photo img {
+    height: auto;
+  }
+  footer {
+    padding: 10px;
+  }
+  footer .social-icon {
+    margin-top: 0px;
+  }
+  .social-icon ul {
+    margin-bottom: 0px;
+  }
+  .ifh-source-item-top {
+    flex-direction: column;
+  }
+  .ifh-source-item-top .ifh-source-item-top-left {
+    width: 100%;
+    height: 165px;
+  }
+  .ifh-source-item-top .ifh-source-item-content {
+    padding: 12px 0;
+  }
+  .ifh-source-button .ifh-source-button-item a {
+    width: 48%;
+  }
+  .ifh-source-button .ifh-source-button-item a:nth-child(2n) {
+    margin-right: 0px;
+  }
+  .ifh-source-banner h1 {
+    margin-left: 0px;
+  }
+  .ifh-source-banner {
+    justify-content: center;
+  }
+  .ifh-source-section-container {
+    padding: 10px;
+  }
+  .ifh-index-mob-mt-15 {
+    margin-top: 15px;
+  }
+  .ifh-index-mob-mt-10 {
+    margin-top: 10px;
+  }
+  /* 1. Home page ended here */
+  /* landing page started */
+  .ifh-source-menu-btn-container .ifh-source-menu-btn {
+    width: 31%;
+  }
+  .ifh-source-menu-btn-container .ifh-source-menu-btn:nth-child(3n) {
+    margin-right: 0px;
+  }
+  .ifh-source-menu-btn-container h2 {
+    font-size: 12px;
+  }
+  .ifh-source-profile .ifh-source-profile-item {
+    width: 30.9%;
+    padding: 6px;
+    line-height: 1px;
+    margin-bottom: 17px;
+  }
+  .ifh-source-profile .ifh-source-profile-item:nth-child(3n) {
+    margin-right: 0px;
+  }
+  .ifh-source-profile .ifh-source-profile-item img {
+    width: 65px;
+    height: 65px;
+  }
+  .ifh-source-profile .ifh-source-profile-item h3 {
+    font-size: 10px;
+  }
+  .rating i {
+    font-size: 6px;
+  }
+  .ifh-source-profile {
+    flex-wrap: wrap;
+  }
+  .ifh-source-top-profile {
+    padding: 10px;
+    height: 170px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .landing-page-heading,
+  .ifh-source-top-profile h2 {
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  .ifh-landing-pages-sidebar .no-padd-mob.sec-padd,
+  .no-padd-mob {
+    padding: 0px;
+  }
+  .ifh-source-banner h1 {
+    font-size: 14px;
+    padding: 7px 8px;
+    line-height: 15px;
+  }
+  .ifh-source-banner h1::before,
+  .ifh-source-banner h1::after {
+    background: url(../images/ifh_source/header-reel-mob.png);
+    height: 30px;
+  }
+  .ifh-landing-page-mob-col-8 .ifh-source-top-profile {
+    height: 205px;
+  }
+  .ifh-source-menu-btn-container .news-video-section .video_thum {
+    height: 75px;
+  }
+  .news-video-section .play_btn {
+    height: 25px;
+  }
+  .ifh-landing-page-news-text .ifh-source-menu-btn-container h2 {
+    height: 42px;
+    overflow: hidden;
+  }
+  .ifh-landing-page-news-mob .ifh-source-top-profile {
+    height: 164px;
+  }
+  .ifh-landing-page-gallery-mob .ifh-source-menu-btn {
+    width: 30%;
+  }
+  .ifh-mob-gallery-section .award-head-photo {
+    height: 40px;
+    overflow: hidden;
+  }
+  .ifh-source-top-profile.ifh-mob-gallery-video {
+    height: 163px;
+  }
+  .ifh-source-top-profile.ifh-mobile-adworld-top-ads {
+    height: 145px;
+  }
+  .ifh-source-marq-div h2,
+  .ifh-source-item h2 {
+    font-size: 16px;
+  }
+
+  /* Advertising Agency Added */
+  .btn-breadcrumb .btn {
+    font-size: 11px;
+  }
+  .btn-breadcrumb .btn:after {
+    margin-top: -9px;
+  }
+  .upcoming-box .box-card h5 {
+    padding-top: 5px;
+    font-size: 12px;
+  }
+  .upcoming-box {
+    padding: 5px;
+  }
+  /* Movies Section */
+  .mob-row-no-pad-left {
+    padding: 0px;
+    padding-right: 5px;
+  }
+  .mob-row-no-pad-left2 {
+    padding: 0px;
+  }
+  .mob-search-btn {
+    line-height: 11px;
+    border: 1px solid #ee2f52;
+    background: #ee2f52;
+    color: #fff;
+  }
+  .filter-form select.form-control {
+    padding-left: 6px;
+  }
+  .mob-row-no-pad {
+    margin-top: 5px;
+    padding: 0px;
+  }
+  .filter-form {
+    padding: 5px 10px;
+  }
+  .movie-internal-row:nth-child(1) {
+    margin-bottom: 10px;
+  }
+  .upcoming-movie-box .movie-row {
+    border-bottom: unset;
+    padding-bottom: 0px;
+  }
+  .award-banner img {
+    height: auto;
+  }
+  .award-box-inner .award-item-left img {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .vendor-detail .celeb-see-more {
+    position: unset;
+  }
+  .award-sect-group iframe {
+    height: 100px;
+  }
+  .video-review-section .pinside1:last-child {
+    display: none;
+  }
+  /* Celebrity Section */
+  .celeb-row {
+    margin: 0 0 10px 0;
+    /* padding-bottom: 10px; */
+    border-bottom: 1px solid #ddd;
+  }
+  .row.celeb-top-row {
+    display: block;
+    border-bottom: 1px solid #ddd;
+  }
+  .row.celeb-top-row:last-child {
+    border-bottom: none;
+  }
+  /* news section */
+  .award-head-photo {
+    font-size: 12px;
+  }
+  .movies-news-search {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .upcoming-news-item h2 {
+    font-size: 12px;
+  }
+  /* Television */
+  .gallery-photo-section .demo h2 {
+    font-size: 12px;
+  }
+  .upcoming-news-bg.tv_shows-bg img {
+    height: 125px;
+  }
+  .upcoming-news-bg .detail-body .tele-time {
+    font-size: 10px;
+  }
+  .upcoming-box.video-row {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+  /* blog */
+  .blog-icon-wrapper {
+    height: 125px;
+  }
+  /* Footer */
+  #back-to-top {
+    width: 35px;
+    height: 35px;
+    bottom: 10px;
+    right: 10px;
+  }
+  #back-to-top i {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .blog-dates p {
+    min-width: 44px;
+    font-size: 16px;
+  }
+  .blog-dates p strong {
+    font-size: 13px;
+  }
+  /* contact us */
+  .contact-info .address,
+  .contact-info .email {
+    margin-bottom: 0px;
+    padding-bottom: 4px;
+  }
+  .contact-info .call {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .contact-info .call p {
+    margin-bottom: 0px;
+  }
+  /* register page */
+  .register-form-div {
+    padding: 10px;
+  }
+  .register-form-row {
+    max-width: unset;
+    height: auto;
+  }
+  .login-form-row .login-col-left-0 .left-graphics-div,
+  .left-graphics-div {
+    display: none;
+  }
+  .login-form-row {
+    margin: 0px;
+  }
+  /* Advertising Agency Details */
+  .preview-pic .tab-pane {
+    display: flex;
+    justify-content: center;
+  }
+  .preview-pic .tab-pane .img-thumbnail {
+    width: 110px;
+    border-radius: 50%;
+  }
+  .product-title {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  .adv-agency-details-content-section .details {
+    text-align: center;
+    margin-bottom: 0px !important;
+  }
+  .adv-agency-details-content-section #personalDetails h4 {
+    font-size: 12px;
+  }
+  .claim-btn-div-mob {
+    display: flex;
+    justify-content: center;
+  }
+  .adv-agency-details-content-section #claimbtn {
+    float: unset;
+    font-size: 12px;
+    padding: 6px 10px;
+    line-height: 11px;
+  }
+  .post-title {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .right-view-all-btn {
+    font-size: 12px;
+  }
+  .adv-agency-detail-col-8 {
+    margin-bottom: 10px;
+  }
+  .adv-agency-details-content-section .upcoming_photo .pinside1:last-child {
+    display: none;
+  }
+  .profile-progress-box {
+    display: none;
+  }
+  /* Dashboard */
+  .dashboard-tab {
+    margin-bottom: 10px;
+  }
+  .dashed-tab-content .tabcontent .post-title {
+    font-size: 13px;
+  }
+  /* movie details */
+  .upcoming_top-col {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .mob-margin-top-4 {
+    margin-top: 4px;
+  }
+  .inline-list.movie-details-list {
+    display: block;
+  }
+  .movie-details-list li {
+    margin-bottom: 6px;
+  }
+  .upcoming-box .rating i {
+    font-size: 11px;
+  }
+  .movie-details-section .rating {
+    margin-left: 0px;
+  }
+  .video_and_trailers .award-sect-group .video_thum {
+    height: 86px;
+  }
+  .upcoming_photo .pinside1:last-child {
+    display: none;
+  }
+  .actor-list-m-details .col-3:last-child,
+  .actor-list-m-details .col-3:nth-last-child(2) {
+    display: none;
+  }
+  .actor-list-m-details h3 {
+    font-size: 12px;
+  }
+  .accordion-body {
+    padding: 8px;
+  }
+  .card {
+    padding: 10px;
+  }
+  /* Details Actor */
+  #celeb-personal,
+  #celeb-physique,
+  #celeb-family {
+    column-count: 1;
+  }
+  .details-actor-section .video_and_trailers .pinside1:last-child,
+  .details-actor-section .upcoming_photo .pinside1:last-child {
+    display: none;
+  }
+  .upcoming-box-news-details iframe {
+    height: 200px;
+  }
+  .upcoming_photo .demo {
+    margin-bottom: 5px;
+  }
+  .upcoming-box .box-card .rating span i {
+    padding-right: 0px;
+  }
+  /* dada saheb phalke award */
+  .upcoming_top img {
+    min-height: unset;
+  }
+  .upcoming_top.mb-3 {
+    margin-bottom: 0px !important;
+  }
+  .dada-phalke-award-title {
+    margin-top: 12px;
+    font-size: 17px;
+  }
+  .post-title-without-bg {
+    font-size: 16px;
+  }
+  .award-slider-wrapper {
+    margin-top: 12px;
+  }
+  .award-section .award-winner {
+    width: 210px;
+    margin: auto;
+  }
+  .award-nominee-header {
+    font-size: 16px;
+  }
+  .award-section .award-winner-description {
+    padding-top: 15px;
+  }
+  .award-mob-d-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .award-mob-d-flex .award-winner-description {
+    order: 1 !important;
+  }
+  .award-mob-d-flex .award-winner-description p {
+    margin-bottom: 5px;
+  }
+  .award-mob-d-flex .award-slider-wrapper {
+    order: 2 !important;
+    padding-bottom: 17px;
+    border-bottom: 1.6px solid #ccc;
+  }
+  /* ott */
+  .ifh-source-section-container .ott-platforms-grid .ott-platform-menu {
+    width: 49%;
+    height: 80px;
+    margin-right: 2%;
+  }
+  .ifh-source-section-container .ott-platforms-grid .ott-platform-menu img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .ifh-source-section-container
+    .ott-platforms-grid
+    .ott-platform-menu:nth-child(3n) {
+    margin-right: 2%;
+  }
+  .ifh-source-section-container
+    .ott-platforms-grid
+    .ott-platform-menu:nth-child(2n) {
+    margin-right: 0px;
+  }
+  .ott-trending-grid {
+    flex-wrap: wrap;
+  }
+  .ott-trending-grid .ott-trending-grid-item {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+  .ott-page-description {
+    flex-direction: column;
+  }
+  .ott-description-left-logo {
+    width: fit-content;
+    margin: 5px auto 10px auto;
+  }
+  .ott-tabs-btn {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .ott-tabs-btn ul {
+    padding: 5px 2px;
+    width: 100%;
+    justify-content: center;
+  }
+  .ott-tabs-btn ul li {
+    margin-right: 10px;
+  }
+  .ott-tabs-btn .ott-tabs-search-form {
+    width: 100%;
+  }
+  /* music */
+  .movie-details-section h1 {
+    margin: 9px 0 6px 0px;
+    font-size: 17px;
+  }
+  .music-details-row .pinside1:nth-last-child(1),
+  .music-details-row .pinside1:nth-last-child(2) {
+    display: none;
+  }
+  .independent-music-page-section .independent-music-page-section-intro h5 {
+    padding-top: 10px;
+  }
+}
